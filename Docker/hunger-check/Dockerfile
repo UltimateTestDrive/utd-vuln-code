@@ -1,4 +1,3 @@
-# 
 FROM python:3.7-slim
 LABEL MAINTAINER="UTD" INFO="Kubernetes"
 

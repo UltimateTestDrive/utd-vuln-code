@@ -9,7 +9,6 @@
 #     -v /var/run/docker.sock:/var/run/docker.sock:ro \
 #     --label docker_bench_security \
 #     docker/docker-bench-security
-#
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
