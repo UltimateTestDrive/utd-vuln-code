@@ -1,4 +1,3 @@
-# SQL
 resource google_sql_database_instance "master_instance" {
   name             = "tg-${var.environment}-master"
   database_version = "POSTGRES_11"
